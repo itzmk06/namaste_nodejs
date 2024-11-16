@@ -1,3 +1,7 @@
+// const {calculateSum,message,calculateProduct}=require("./app.js");
+const {calculateProduct,calculateSum}=require("./calculate");
+const data=require("./data.json");
+
 let name="Manoj";
 let a=10;
 let b=20;
@@ -10,3 +14,10 @@ console.log(global);
 console.log(this);
 
 console.log(globalThis)
+
+calculateSum(10,20);
+calculateProduct(10,20);
+console.log(data);
+
+
+// console.log(message);
